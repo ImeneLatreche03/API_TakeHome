@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="8" total="20" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19564" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:39 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19564" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:39 CDT">
+      <class name="testCases.TC_Response_Code_422">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC_Response_Code_422@57e1b0c]" name="setup" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyResponseGetUserById()[pri:1, instance:testCases.TC_Response_Code_422@57e1b0c]" name="verifyResponseGetUserById" duration-ms="1362" started-at="2022-04-08T18:38:29 CDT" finished-at="2022-04-08T18:38:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseGetUserById -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_Response_Code_422@57e1b0c]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:30 CDT" finished-at="2022-04-08T18:38:30 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseGetUserById status=SUCCESS method=TC_Response_Code_422.verifyResponseGetUserById()[pri:1, instance:testCases.TC_Response_Code_422@57e1b0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="repeatSameAction()[pri:2, instance:testCases.TC_Response_Code_422@57e1b0c]" name="repeatSameAction" duration-ms="1414" started-at="2022-04-08T18:38:30 CDT" finished-at="2022-04-08T18:38:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repeatSameAction -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_Response_Code_422@57e1b0c]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T18:38:32 CDT" finished-at="2022-04-08T18:38:32 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=repeatSameAction status=SUCCESS method=TC_Response_Code_422.repeatSameAction()[pri:2, instance:testCases.TC_Response_Code_422@57e1b0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testCases.TC_Response_Code_422 -->
+      <class name="testCases.TC_Response_Code_401">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC_Response_Code_401@1877ab81]" name="setup" is-config="true" duration-ms="421" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="unAuthorizedResponse()[pri:0, instance:testCases.TC_Response_Code_401@1877ab81]" name="unAuthorizedResponse" duration-ms="1365" started-at="2022-04-08T18:38:36 CDT" finished-at="2022-04-08T18:38:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unAuthorizedResponse -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_Response_Code_401@1877ab81]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:37 CDT" finished-at="2022-04-08T18:38:37 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unAuthorizedResponse status=SUCCESS method=TC_Response_Code_401.unAuthorizedResponse()[pri:0, instance:testCases.TC_Response_Code_401@1877ab81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testCases.TC_Response_Code_401 -->
+      <class name="testCases.TC_SuccessResponseforEachCall">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="setupReport" is-config="true" duration-ms="137" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="setup" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserCreated()[pri:1, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="verifyUserCreated" duration-ms="3539" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:23 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCreated -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="getResult" is-config="true" duration-ms="10" started-at="2022-04-08T18:38:23 CDT" finished-at="2022-04-08T18:38:23 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCreated status=SUCCESS method=TC_SuccessResponseforEachCall.verifyUserCreated()[pri:1, instance:testCases.TC_SuccessResponseforEachCall@2781e022] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyResponseGetUserList()[pri:2, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="verifyResponseGetUserList" duration-ms="1482" started-at="2022-04-08T18:38:23 CDT" finished-at="2022-04-08T18:38:24 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseGetUserList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="getResult" is-config="true" duration-ms="1" started-at="2022-04-08T18:38:24 CDT" finished-at="2022-04-08T18:38:24 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseGetUserList status=SUCCESS method=TC_SuccessResponseforEachCall.verifyResponseGetUserList()[pri:2, instance:testCases.TC_SuccessResponseforEachCall@2781e022] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyResponseGetUserById()[pri:3, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="verifyResponseGetUserById" duration-ms="1441" started-at="2022-04-08T18:38:24 CDT" finished-at="2022-04-08T18:38:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseGetUserById -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:26 CDT" finished-at="2022-04-08T18:38:26 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseGetUserById status=SUCCESS method=TC_SuccessResponseforEachCall.verifyResponseGetUserById()[pri:3, instance:testCases.TC_SuccessResponseforEachCall@2781e022] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyUserUpdated()[pri:4, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="verifyUserUpdated" duration-ms="1415" started-at="2022-04-08T18:38:26 CDT" finished-at="2022-04-08T18:38:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserUpdated -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:27 CDT" finished-at="2022-04-08T18:38:27 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserUpdated status=SUCCESS method=TC_SuccessResponseforEachCall.verifyUserUpdated()[pri:4, instance:testCases.TC_SuccessResponseforEachCall@2781e022] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyUserDeleted()[pri:5, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="verifyUserDeleted" duration-ms="1418" started-at="2022-04-08T18:38:27 CDT" finished-at="2022-04-08T18:38:29 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserDeleted -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:29 CDT" finished-at="2022-04-08T18:38:29 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserDeleted status=SUCCESS method=TC_SuccessResponseforEachCall.verifyUserDeleted()[pri:5, instance:testCases.TC_SuccessResponseforEachCall@2781e022] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_SuccessResponseforEachCall@2781e022]" name="tearDown" is-config="true" duration-ms="280" started-at="2022-04-08T18:38:39 CDT" finished-at="2022-04-08T18:38:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SuccessResponseforEachCall -->
+      <class name="testCases.TC_Response_Code_404">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC_Response_Code_404@4232c52b]" name="setup" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserCreated()[pri:1, instance:testCases.TC_Response_Code_404@4232c52b]" name="verifyUserCreated" duration-ms="1422" started-at="2022-04-08T18:38:32 CDT" finished-at="2022-04-08T18:38:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCreated -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_Response_Code_404@4232c52b]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:33 CDT" finished-at="2022-04-08T18:38:33 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCreated status=SUCCESS method=TC_Response_Code_404.verifyUserCreated()[pri:1, instance:testCases.TC_Response_Code_404@4232c52b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyUserDeleted()[pri:2, instance:testCases.TC_Response_Code_404@4232c52b]" name="verifyUserDeleted" duration-ms="1457" started-at="2022-04-08T18:38:33 CDT" finished-at="2022-04-08T18:38:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserDeleted -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_Response_Code_404@4232c52b]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:34 CDT" finished-at="2022-04-08T18:38:34 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserDeleted status=SUCCESS method=TC_Response_Code_404.verifyUserDeleted()[pri:2, instance:testCases.TC_Response_Code_404@4232c52b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyUserUpdated()[pri:3, instance:testCases.TC_Response_Code_404@4232c52b]" name="verifyUserUpdated" duration-ms="1405" started-at="2022-04-08T18:38:34 CDT" finished-at="2022-04-08T18:38:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserUpdated -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_Response_Code_404@4232c52b]" name="getResult" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:36 CDT" finished-at="2022-04-08T18:38:36 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserUpdated status=SUCCESS method=TC_Response_Code_404.verifyUserUpdated()[pri:3, instance:testCases.TC_Response_Code_404@4232c52b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testCases.TC_Response_Code_404 -->
+      <class name="testCases.TC_Response_Code_405">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC_Response_Code_405@305fd85d]" name="setup" is-config="true" duration-ms="0" started-at="2022-04-08T18:38:19 CDT" finished-at="2022-04-08T18:38:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyUserCreatedWithWrongMethod()[pri:0, instance:testCases.TC_Response_Code_405@305fd85d]" name="verifyUserCreatedWithWrongMethod" duration-ms="1353" started-at="2022-04-08T18:38:37 CDT" finished-at="2022-04-08T18:38:39 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ We are getting 404 instead of 405 expected [405] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError:  We are getting 404 instead of 405 expected [405] but found [404]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at testCases.TC_Response_Code_405.verifyUserCreatedWithWrongMethod(TC_Response_Code_405.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCreatedWithWrongMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.TC_Response_Code_405@305fd85d]" name="getResult" is-config="true" duration-ms="4" started-at="2022-04-08T18:38:39 CDT" finished-at="2022-04-08T18:38:39 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCreatedWithWrongMethod status=FAILURE method=TC_Response_Code_405.verifyUserCreatedWithWrongMethod()[pri:0, instance:testCases.TC_Response_Code_405@305fd85d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testCases.TC_Response_Code_405 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
